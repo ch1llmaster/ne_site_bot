@@ -4,11 +4,6 @@ body {
 	font-size: 18px;
 	color: var(--tg-theme-text-color);
 	background: var(--tg-theme-bg-color);
-	font-family: sans-serif;
-}
-
-.text {
-
 }
 
 .container {
