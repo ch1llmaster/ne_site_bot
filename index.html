@@ -1,22 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width-device-width, user-scalable-no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <meta http-equiv="X-UA_Compatible" content="ie=edge">
-    <title>Efremov Image</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
 </head>
-
 <body>
-    <div id="main">
-        <h1>Онлайн магазин</h1>
-        <img src="https://avatars.mds.yandex.net/get-altay/6222916/2a000001809adcd33442ac3392855614f79e/XXL">
-        <p style="color: blue;">Lorem ipsum</p>
-        <button id="buy">Купить</button>
-    </div>
-    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+	<div class="container">
+		<div class="inner">
+			<div class="item">
+				<img src="1.jpg" alt="" class="img">
+				<button class="btn" id="btn1">Add</button>
+			</div>
+			<div class="item">
+				<img src="1.jpg" alt="" class="img">
+				<button class="btn" id="btn2">Add</button>
+			</div>
+			<div class="item">
+				<img src="1.jpg" alt="" class="img">
+				<button class="btn" id="btn3">Add</button>
+			</div>
+			<div class="item">
+				<img src="1.jpg" alt="" class="img">
+				<button class="btn" id="btn4">Add</button>
+			</div>
+			<div class="item">
+				<img src="1.jpg" alt="" class="img">
+				<button class="btn" id="btn5">Add</button>
+			</div>
+			<div class="item">
+				<img src="1.jpg" alt="" class="img">
+				<button class="btn" id="btn6">Add</button>
+			</div>
+		</div>
+	</div>
+	<div class="usercard" id="usercard">
+
+	</div>
+
+	<script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script>
+        let tg = window.Telegram.webApp;
+        let buy1 = document.getElementById("btn1");
+        let buy2 = document.getElementById("btn2");
+        let buy3 = document.getElementById("btn3");
+        let buy4 = document.getElementById("btn4");
+        let buy5 = document.getElementById("btn5");
+        let buy6 = document.getElementById("btn6");
+
+        buy1.addEventListener("click",() =>{
+            tg.close();
+        });
+
+    </script>
 
 </body>
 </html>
