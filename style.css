@@ -6,8 +6,16 @@ body {
 	background: var(--tg-theme-bg-color);
 }
 
+.inner2 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 50px 50px 50px;
+}
+
 .container {
+    display: grid;
 	max-width: 390px;
+	grid-template-columns: 0.5fr 1.5fr;
 }
 
 .inner {
@@ -18,6 +26,10 @@ body {
 
 .img {
 	width: 150px;
+}
+
+.img2 {
+	width: 40px;
 }
 
 .item {
