@@ -27,8 +27,6 @@ body {
 }
 
 .img {
-	background-position:center center;
-    background-size:cover;
     width:150px;
     height:150px;
 }
