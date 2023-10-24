@@ -58,28 +58,6 @@ btn4.addEventListener("click", function(){
     }
 });
 
-btn5.addEventListener("click", function(){
-    if (tg.MainButton.isVisible && tg.MainButton.text === "Вы выбрали товар 5!") {
-        tg.MainButton.hide();
-    }
-    else {
-        tg.MainButton.setText("Вы выбрали товар 5!");
-        item = "5";
-        tg.MainButton.show();
-    }
-});
-
-btn6.addEventListener("click", function(){
-    if (tg.MainButton.isVisible && tg.MainButton.text === "Вы выбрали товар 6!") {
-        tg.MainButton.hide();
-    }
-    else {
-        tg.MainButton.setText("Вы выбрали товар 6!");
-        item = "6";
-        tg.MainButton.show();
-    }
-});
-
 
 Telegram.WebApp.onEvent("mainButtonClicked", function(){
     tg.sendData(item);
