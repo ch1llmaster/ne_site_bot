@@ -44,7 +44,7 @@ body {
 	padding: 10px 20px;
 	border: none;
 	background: rgb(248, 168, 24);
-	border-radius: 10px;
+	border-radius: 15px;
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -55,7 +55,11 @@ body {
 .btn:hover {
 	background: lightgreen;
 }
-
+.btn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px # 666;
+    transform: translateY(4px);
+}
 .usercard {
 	text-align: center;
 }
